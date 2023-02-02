@@ -1,0 +1,184 @@
+/* pricing secrtion */
+* {
+  box-sizing: border-box;
+  
+}
+
+.col {
+  
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid rgb(135, 189, 247);
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 #8547ca
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: rgb(144, 144, 147);
+  font-size: 20px;
+}
+
+.button {
+  background-color: #1a1b1a;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #8547ca;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+/* info section */
+.info_section {
+  background-color: #363636;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info_section h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.info_logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info_logo-box h2 {
+  font-weight: bold;
+  padding: 5px 35px;
+  border-bottom: 1.5px solid #8547ca;
+}
+
+.info_section ul {
+  padding: 0;
+}
+
+.info_section ul li {
+  list-style-type: none;
+  margin: 3px 0;
+}
+
+.info_section ul li a {
+  color: #ffffff;
+}
+
+.info_section ul li a:hover {
+  color: #8547ca;
+}
+
+.info_section .form_container input {
+  width: 225px;
+  height: 40px;
+  padding: 10px;
+}
+
+.info_section .form_container::-webkit-input-placeholder {
+  color: #ccc8c8;
+}
+
+.info_section .form_container:-ms-input-placeholder {
+  color: #ccc8c8;
+}
+
+.info_section .form_container::-ms-input-placeholder {
+  color: #ccc8c8;
+}
+
+.info_section .form_container::placeholder {
+  color: #ccc8c8;
+}
+
+.info_section .form_container button {
+  background-color: #8c60bd;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 30px;
+  margin-top: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.social_container {
+  width: 95%;
+  margin: 0 auto;
+  border-top: 1px solid #898989;
+  padding: 25px 0;
+}
+
+.info_section .social-box {
+  margin: 0 auto;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info_section .social-box img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+/* end info section */
+/* footer section*/
+.footer_section {
+  background-color: #8547ca;
+  padding: 20px;
+}
+
+.footer_section p {
+  margin: 0;
+  text-align: center;
+  color: #fefdfc;
+}
+
+.footer_section a {
+  color: #fefdfc;
+}
+/*# sourceMappingURL=style.css.map */
